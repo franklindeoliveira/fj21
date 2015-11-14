@@ -1,7 +1,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <!-- Cria o DAO -->
-<jsp:useBean id="dao" class=br.com.caelum.agenda.dao.ContatoDao />
+<jsp:useBean id="dao" class="br.com.caelum.agenda.dao.ContatoDao" />
 
 <table>
 	<!-- percorre contatos montando as linhas da tabela -->
